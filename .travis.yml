@@ -1,7 +1,6 @@
 language: PHP
 php:
  - '7.3'
- - nightly
 before_script:
  - composer update
  - composer install
