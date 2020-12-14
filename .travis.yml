@@ -1,3 +1,3 @@
 language: php
-#composer: install
-install: php vendor/vendors.php
+composer install
+
