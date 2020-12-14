@@ -12,6 +12,9 @@ class Calculator
     public function subtract($a,$b){
         return $a - $b;
     }
+    public function delen($a,$b){
+        return $a / $b;
+    }
 }
 
 ?>
