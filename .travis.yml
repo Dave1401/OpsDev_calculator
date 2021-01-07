@@ -4,3 +4,6 @@ php:
 before_script:
  - composer update
  - composer install
+ branches:
+  only:
+  - master
