@@ -24,7 +24,7 @@ final class CalculatorTest extends TestCase
     }
     public function testDeelNumbers(): void{
         $calc = new Calculator();
-        $this->assertEquals(1, $calc->delen(4,2));
+        $this->assertEquals(2, $calc->delen(4,2));
     }
 
 }
