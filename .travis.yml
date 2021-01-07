@@ -22,3 +22,7 @@ notifications:
       - opgaeve@gmail.com
     on_success: never # default: change
     on_failure: always # default: always
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_APT_KEY
