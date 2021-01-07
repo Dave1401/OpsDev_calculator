@@ -20,7 +20,7 @@ final class CalculatorTest extends TestCase
 
     public function testSubtractNumbers(): void{
         $calc = new Calculator();
-        $this->assertEquals(5, $calc->subtract(3,2));
+        $this->assertEquals(1, $calc->subtract(3,2));
     }
 
 }
