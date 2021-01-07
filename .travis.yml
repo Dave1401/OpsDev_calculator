@@ -24,6 +24,6 @@ notifications:
     on_failure: always # default: always
 deploy:
   provider: heroku
-  api_key:
-    secure: $HEROKU_APT_KEY
   app: kentgens
+  api_key:app: kentgens
+  
