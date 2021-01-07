@@ -26,6 +26,4 @@ deploy:
   provider: heroku
   app: kentgens
   api_key: $HEROKU_APT_KEY
-  app: kentgens
-on:
-  all_branches: true 
+  branch: main
